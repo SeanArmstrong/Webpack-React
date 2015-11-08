@@ -12,7 +12,7 @@ npm start
 
 and navigate to http://localhost:8080.
 
-`start` is a script located in the package json that runs `webpack-dev-server --hot --inline`
+`start` is a script located in the package.json that runs `webpack-dev-server --hot --inline`
 
 TODO:
 * React Routes
