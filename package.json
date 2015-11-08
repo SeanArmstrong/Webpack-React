@@ -20,5 +20,8 @@
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "history": "^1.13.0"
+  },
+  "scripts": {
+      "start": "webpack-dev-server --hot --inline"
   }
 }
