@@ -1,6 +1,6 @@
 # Webpack-React
 
-Very Simple Starter kit for React using Webpack. Includes hot reloading.
+Very simple starter kit for React using Webpack. Includes hot reloading.
 
 Run 
 
