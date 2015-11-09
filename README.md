@@ -5,6 +5,7 @@ Very simple starter kit for React using Webpack. Includes:
 * Babel ES6 - ES6 Syntax Loader
 * [React Router](https://github.com/rackt/react-router)
 * [Import SASS Files](https://github.com/jtangelder/sass-loader)
+* Jasmine Tests with Istanbul Coverage Generation (WIP)
 
 Run 
 
@@ -23,7 +24,7 @@ Specs can be run using
 karma start
 ```
 
-This will run all `__spec__.js` files and generate a coverage report on all `js` files. NOT YET WORKING HARDCODED VALUES IN CONFIG
+This will run all `__spec__.js` files and generate a coverage report on all `js` files. (This current has hardcoded values. karma config needs updating)
 
 TODO:
 * Review SASS import
