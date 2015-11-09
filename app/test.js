@@ -1,4 +1,4 @@
 // only needed for accurate coverage reporting
-// TODO: Better Regex
-var testsContext = require.context("./components", true, /^((?!__spec__).)*$/);
+// Regex - Match all .js files except __spec__.js app.js and test.js
+var testsContext = require.context(".", true, /^((?!(__spec__|test|app)).)*\.js/);
 testsContext.keys().forEach(testsContext);
