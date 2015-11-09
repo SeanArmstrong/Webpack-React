@@ -16,6 +16,15 @@ and navigate to http://localhost:8080.
 
 `start` is a script located in the package.json that runs `webpack-dev-server --hot --inline`
 
+### Specs
+Specs can be run using 
+
+```
+karma start
+```
+
+This will run all `__spec__.js` files and generate a coverage report on all `js` files. NOT YET WORKING HARDCODED VALUES IN CONFIG
+
 TODO:
 * Review SASS import
 * Flux/Redux/Another Flux
