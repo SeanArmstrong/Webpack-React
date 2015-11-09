@@ -24356,7 +24356,7 @@
 
 
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, ".greeting {\n  color: blue; }\n", ""]);
 
 	// exports
 
