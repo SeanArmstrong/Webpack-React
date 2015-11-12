@@ -1,17 +1,17 @@
 var path = process.cwd(),
-    specPath = path + '/app/components/__spec__.js',
-    srcPath = path + '/app/components/!(__spec__).js',
+    specPath = path + '/src/***/**/__spec__.js',
+    srcPath = path + '/src/***/**/!(__spec__).js',
     preprocessors = {};
 
 preprocessors[specPath] = ['webpack'];
 preprocessors[srcPath] = ['webpack'];
-preprocessors['app/test.js'] = ['webpack'];
+preprocessors['src/test.js'] = ['webpack'];
 
 module.exports = function(config) {
   config.set({
     browsers: ['PhantomJS'],
     files: [
-      'app/test.js',
+      'src/test.js',
       specPath
     ],
     frameworks: ['jasmine', 'es5-shim'],
@@ -39,7 +39,7 @@ module.exports = function(config) {
         preLoaders: [
           {
             test: /\.js?$/,
-            exclude: [/node_modules/, path + '/app/components/__spec__.js'] ,
+            exclude: [/node_modules/, path + '/src/***/**/__spec__.js'] ,
             loader: 'isparta'
           }
         ],

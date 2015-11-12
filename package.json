@@ -4,7 +4,8 @@
   "description": "Simple Webpack React App",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline"
+    "start": "webpack-dev-server --hot --inline",
+    "test": "karma start"
   },
   "author": "Sean Armstrong",
   "devDependencies": {
